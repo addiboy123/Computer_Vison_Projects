@@ -1,0 +1,14 @@
+#key word for installng modules in python:-
+py -m pip
+
+#key word for turning python file into exe files:-
+py -m PyInstaller --onefile -w
+#put -w if you don't want the console to be visible
+#otherwise, don't put -w
+
+
+#key word for starting a virtualenv
+py -m venv <name of virtual env>
+You can select the specific interpreter for the virtual env by 
+going to the command palette in vs code and selecting 
+the necessarry python interpreter.
